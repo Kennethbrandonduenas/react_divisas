@@ -37,7 +37,7 @@ const ComponentGraphicLineDivisas = (props) => {
                         <XAxis dataKey="name" />
                         <YAxis tickFormatter={dataFormaternumber}/>
                         <Tooltip />
-                        <Line type="monotone" dataKey="value" stroke="#82ca9d"  />
+                        <Line type="monotone" dataKey="valor" stroke="#82ca9d"  />
                     </LineChart>
                 </ResponsiveContainer>
             </div>
