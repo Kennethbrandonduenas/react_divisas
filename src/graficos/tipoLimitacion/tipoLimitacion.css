@@ -1,0 +1,35 @@
+
+
+.tipoLimitacion--Container{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tipol-item{
+    width: 25%;
+    text-align: left;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+    font-size: 14px;
+    line-height: 24px;
+
+
+    color: #000000;
+}
+
+.tipol-item :first-child{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}

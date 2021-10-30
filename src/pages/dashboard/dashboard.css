@@ -1,0 +1,316 @@
+.div-ubication{
+    background-color: white;
+    border-radius: 5px; 
+    margin-top:20px;
+    
+}
+.btnopenmap{
+    margin-bottom:15px;
+    margin-top:5px;
+    
+}
+
+.btnsearch{
+    margin-bottom:15px;
+    background-color: #f9373c;
+    color:white;
+}
+.chevronrightclass{
+    margin-left:10px
+}
+.MuiInputBase-input{
+  height:2px
+}
+
+.labelubicationclassage{
+    font-weight: bold;
+    margin-top:10px;
+    font-size: 15px;
+    margin-bottom:15px;
+}
+
+.labelubicationclass{
+    font-weight: bold;
+    margin-top:20px;
+    font-size: 18px;
+    margin-bottom:15px;
+}
+.divselect{
+    margin-bottom: 10px;
+}
+
+.popoverstylehistorial{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.progress-bar-vertical {
+  width: 100px;
+  min-height: 150px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 20px;
+  float: left;
+}
+
+.progress-bar-vertical .progress-bar {
+  width: 100%;
+  background-color: #f9373c;
+  border-top-left-radius:  10px;
+  border-top-right-radius:  10px;
+  height: 0;
+  -webkit-transition: height 0.6s ease;
+  -o-transition: height 0.6s ease;
+  transition: height 0.6s ease;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: white;
+  }
+  .one {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+  }
+  .twoone {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    
+  }
+  .three {
+    grid-column: 1 / 3;
+    grid-row: 2;
+  }
+  .four {
+    grid-column: 2 / 4;
+    grid-row: 3;
+  }
+  .five{
+    grid-column: 2 / 4;
+    grid-row: 2;
+  }
+
+  .stadistic-bar-age{
+    
+    overflow: auto;
+    white-space: nowrap;
+    display: inline-block;
+    
+  }
+  .subdivstadistic-bar-age{
+    width:500px;
+  }
+
+  .styledataage{
+    border: red 1px solid;
+    border-left-style: none;
+    border-right-style: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .distributionageclass{
+    background-color: #f6f6f6;
+    height: 300px;
+    overflow: auto;
+    position: relative;
+    bottom: 10px;
+    
+  }
+  
+  .womanstadisticbar{
+    transform: rotate(180deg);
+    bottom:45px;
+    position:relative;
+  }
+  .rotatespanman{
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);	 /*  for IE  */
+
+    /* 	for browsers supporting webkit (such as chrome, firefox, safari etc.). */
+    -webkit-transform: rotate(180deg);
+    display: inline-block;
+  }
+  .tooltip {
+    position: relative;
+    
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+  .form-check-input:checked{
+    background-color: #f9373c;
+    border-color: #f9373c;
+  }
+  .form-check-input{
+    width: 20px;
+    height: 20px;
+  }
+  .dotnocertificate{
+    height: 25px;
+    width: 25px;
+    background-color: #0275d8;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dotcertificate{
+    height: 25px;
+    width: 25px;
+    background-color: #f9373c;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dotgray{
+    height: 25px;
+    width: 25px;
+    background-color: #00b347;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .progress{
+    height: 25px;
+  }
+  .dotinei{
+    height: 25px;
+    width: 25px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .iwt{
+    display:block;
+    }
+    .pop-div {
+      font-size: 13px;
+      margin-top: 100px;
+      background-color: white;
+      border-radius: 10px;
+
+  }
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+
+
+.rest--container{
+  box-sizing: border-box;
+  padding: 24px;
+  background: #FFFFFF;
+  width: 100%;
+  margin-bottom: 24px;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.14);
+  border-radius: 10px;
+}
+
+.semilarge-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+
+}
+
+@media only screen and (max-width: 1000px){
+  .semilarge-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }  
+}
+@media only screen and (max-width: 800px){
+  .semilarge-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }  
+}
+@media only screen and (max-width: 600px){
+  .semilarge-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }  
+}
+@media only screen and (max-width: 500px){
+  .semilarge-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }  
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  .semilarge-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }  
+}
+@media only screen and (max-width: 300px) {
+  .semilarge-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }  
+}

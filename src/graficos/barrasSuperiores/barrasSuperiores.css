@@ -1,0 +1,209 @@
+.barrasSuperiores-container{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.barras-graficoC{
+    overflow: auto;
+}
+
+.normal-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+
+
+.bsGrafic-contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.bsGrafic-labels{
+    width: 5%;
+    height: 400px;
+    margin-top: 24px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    font-size: 12px;
+    line-height: 24px;
+
+
+
+
+    color: #333333;
+}
+
+.barrasSuperiores-graficC{
+    margin-top: 24px;
+    width: 90%;
+    margin-left: 12px;
+    
+
+    height: 400px;
+    position: relative;
+    margin-bottom: 24px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+.barrasSuperiores-graficC-item{
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    width: fit-content;
+ 
+    
+    padding: 0 18px;
+
+    border: 1px solid #E0E0E0;
+    border-top: none;
+}
+
+.barraSuperior--total{
+    width: 19px;
+    height: 100%;
+    
+    position: relative;
+
+}
+
+.barraSuperior--total:hover > .barraSuperior-popuver{
+    display: flex;
+
+}
+
+.barraSuperior-popuver{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-left: 3px solid;
+    width: 180px;
+    box-sizing: border-box;
+    padding: 8px 4px;
+    z-index: 7;
+    /* whiteff */
+
+    background: #FFFFFF;
+    /* shades */
+
+    box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+
+
+    color: #333333;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+
+ 
+
+   
+}
+
+.barraSuperior-total :first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.barraSuperior-total{
+    left: 0;
+    position: absolute;
+    
+    bottom: 0;
+    height: 50%;
+    background-color: #E0E0E0;
+}
+
+.barraSuperior--labelBotton{
+    position: absolute;
+    width: 100%;
+    bottom: -25px;
+    text-align: center;
+    left: 0%;
+
+    font-size: 12px;
+line-height: 24px;
+
+color: #333333;
+}
+
+.barrasSuperiores-leyenda{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.barraSuperior-litem{
+    margin-left: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.bas-litemColor{
+    width: 24px;
+    height: 4px;
+
+    border-radius: 20px;
+}
+
+
+@media (min-width:1000px){
+
+    .bsGrafic-labels{
+        width: 5%;
+        height: 400px;
+        margin-top: 24px;
+    
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    .barrasSuperiores-graficC{
+        margin-top: 24px;
+        width: 90%;
+        margin-left: 12px;
+        
+    
+        height: 400px;
+        position: relative;
+        margin-bottom: 24px;
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+    }
+    
+
+}

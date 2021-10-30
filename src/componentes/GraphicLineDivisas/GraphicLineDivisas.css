@@ -1,0 +1,43 @@
+.large--container{
+    box-sizing: border-box;
+    padding: 24px;
+    width: 90%;
+
+    margin-left: 5%;
+    background: #FFFFFF;
+
+    box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin-top: 24px;
+    position: relative;
+    padding-bottom: 30px;
+  
+    
+}
+
+.dash--margin{
+    margin-left: 5%;
+}
+
+.de--title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    color: #333333;
+}
+
+
+@media (min-width:600px){
+    .dash--margin{
+        width: calc(90% - 62px);
+        margin-left: calc(62px + 5%);
+    }
+}

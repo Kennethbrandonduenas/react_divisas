@@ -1,0 +1,66 @@
+
+.linealGrafic-container{
+    width: 100%;
+    
+    
+    
+    
+    
+}
+
+.linealGrafic-g{
+    width: 100%;
+    overflow: auto;
+}
+
+
+.svg-lineal{
+    width: 1188px;
+    height: 494px;
+}
+
+
+.linealGrafic--box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    top: 0;
+    left: 0%;
+    z-index: 10;
+}
+
+
+
+.linealGrafic--dots{
+    pointer-events: bounding-box;
+    opacity: 0;
+}
+
+.prueba{display: none;}
+
+.linealGrafic--dots:hover{
+    opacity: 1;
+}
+
+.linealGrafic--dots:hover ~ .prueba{
+    display: flex;
+    
+}
+
+@media (min-width:1000px){
+
+    .svg-lineal{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+

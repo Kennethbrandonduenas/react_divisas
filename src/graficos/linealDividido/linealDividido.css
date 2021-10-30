@@ -1,0 +1,48 @@
+
+
+.linealDividido-contenedor{
+    width: 100%;
+}
+
+.linealDividido-grafico{
+    width: 100%;
+    overflow: auto;
+}
+
+.svg--linealDividido{
+    width: 1174px;
+    height: 356px;
+}
+
+
+.box-info-ld{
+    display: none;
+    
+}
+
+.box--color-ld{
+    opacity: 0;
+    pointer-events: bounding-box;
+    transition: 1s all ease-in-out;
+}
+
+.box--color-ld:hover{
+    opacity: 1;
+    
+}
+
+.box--color-ld:hover ~ .box-info-ld{
+    display: flex;
+    
+}
+
+
+
+
+@media (min-width:1000px){
+
+    .svg--linealDividido{
+        width: 100%;
+    }
+
+}

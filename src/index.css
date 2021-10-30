@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E5E5E5;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  background-color: #f2f2f2;
+}
+    
+body::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(242, 242, 242);
+}
+    
+body::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #e6282e;
+  
+}
+
+* {
+
+  scrollbar-width: thin;
+  scrollbar-color: #e6282e #f2f2f2;
+  scrollbar-arrow-color: #f2f2f2;
+}
+.scrolltype{
+  scrollbar-width: thin;
+  scrollbar-color: #e6282e #f2f2f2;
+  scrollbar-arrow-color: #f2f2f2;
+}
