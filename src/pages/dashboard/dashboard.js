@@ -1,8 +1,8 @@
 import React, {useEffect,useState} from 'react'
 import axios from 'axios';
 import URL from '../../url.json'
-import LoadingComponent from '../../componentes/loadingComponent/loadingComponent'
-import ComponentGraphicLineDivisas from '../../componentes/GraphicLineDivisas/GraphicLineDivisas'
+import LoadingComponent from '../../components/loadingComponent/loadingComponent'
+import ComponentGraphicLineDivisas from '../../components/GraphicLineDivisas/GraphicLineDivisas'
 
 
 
